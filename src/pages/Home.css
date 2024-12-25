@@ -1,0 +1,30 @@
+.container {
+    font-family: "Roboto", sans-serif;
+}
+
+.card {
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.02);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+h4 {
+    font-weight: bold;
+}
+
+p {
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+    color: #555;
+}
+
+.rounded-circle {
+    transition: transform 0.3s ease-in-out;
+}
+
+.rounded-circle:hover {
+    transform: scale(1.1);
+}
